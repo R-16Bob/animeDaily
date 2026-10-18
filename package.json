@@ -1,0 +1,15 @@
+{
+  "name": "anime-daily",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "追番管理：每日放送、我的追番、今天更新第几话",
+  "scripts": {
+    "start": "node server/index.mjs",
+    "build": "npm --prefix web run build",
+    "dev:web": "npm --prefix web run dev"
+  },
+  "engines": {
+    "node": ">=20.11"
+  }
+}

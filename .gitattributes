@@ -1,0 +1,14 @@
+# 默认按文本处理，自动换行转换
+* text=auto
+
+# 批处理必须保持 CRLF：LF-only 的 .cmd 在中文 Windows 上容易被 cmd 解析错位
+*.cmd text eol=crlf
+*.bat text eol=crlf
+
+# 二进制资源不做换行转换
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.ico binary

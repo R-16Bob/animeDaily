@@ -1,0 +1,14 @@
+# 依赖与构建产物
+node_modules/
+web/node_modules/
+web/dist/
+
+# 个人数据：追番列表、进度、设置、封面缓存、接口缓存
+# 含 Bangumi 用户名与你的观看记录，不要提交
+data/
+
+# 本地工具缓存
+.pnpm-store/
+.npm-cache/
+.pnpm-home/
+*.log
